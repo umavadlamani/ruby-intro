@@ -15,3 +15,23 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["milk", "eggs", "bacon"]
+ben_list = ["milk", "cookies", "apples"]
+combined_list = my_list + ben_list
+puts combined_list
+puts nil
+puts combined_list.uniq
+puts nil
+puts combined_list.sort.uniq
+
+#store this in a new var
+final_list = combined_list.sort.uniq
+puts nil 
+puts final_list
+puts nil
+puts "Buy #{final_list[0]}"
+puts "Buy #{final_list[1]}"
+puts "Buy #{final_list[2]}"
+puts "Buy #{final_list[3]}"
+puts "Buy #{final_list[4]}"
